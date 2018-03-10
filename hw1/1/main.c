@@ -43,7 +43,7 @@ int main() {
     long long  n = 0;
     char string[20];
     char* p;
-    scanf("%s", string);
+    scanf("%20s", string);
     for(p = string; isdigit(*p) && *p != '\0';++p)
         ;
     if (*p != '\0'){
